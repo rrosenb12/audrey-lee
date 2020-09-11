@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
+.navbar {
+  font-family: "Cinzel", serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #E9ECEF;
+  z-index: 12;
+  background-color: white;
+}
+.navbar .navbartitle {
+  margin: 1%;
+}
+.navbar .navbaritem {
+  margin: 1%;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #E9ECEF;
+  height: 12%;
+  align-items: center;
+}
+.footer img {
+  opacity: 0.75;
+  transition: all 0.2s ease-in-out;
+}
+.footer img:hover {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */

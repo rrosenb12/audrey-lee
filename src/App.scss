@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap');
+$title-font: 'Cinzel', serif;
+$body-font: 'Lato', sans-serif;
+
+.navbar {
+  font-family: $title-font;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #E9ECEF;
+  z-index: 12;
+  background-color: white;
+  .navbartitle {
+    margin: 1%;
+  }
+  .navbaritem {
+    margin: 1%;
+  }
+}
+
+.footer {
+  font-family: $body-font;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #E9ECEF;
+  height: 12%;
+  align-items: center;
+
+  img {
+    opacity: 0.75;
+    transition: all .2s ease-in-out;
+  }
+  img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
