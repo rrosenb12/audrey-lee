@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
+  // position: fixed;
   top: 0;
   width: 100%;
   border-bottom: 1px solid #343A40;
@@ -23,7 +23,7 @@
 .footer {
   font-family: $body-font;
   display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: #E9ECEF;
