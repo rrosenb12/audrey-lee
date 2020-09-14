@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-        <Route exact path="/home" component={Home}/>
+        <Route exact path="/" component={Home}/>
     </BrowserRouter>
   );
 }

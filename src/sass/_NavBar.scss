@@ -1,4 +1,9 @@
 @import 'fonts';
+@import 'columns';
+
+.navbarrow::after{
+  @include row;
+}
 
 .navbar {
   font-family: $title-font;
@@ -6,11 +11,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // position: fixed;
   top: 0;
-  width: 100%;
+  width: $col-12;
   border-bottom: 1px solid #343A40;
-  z-index: 12;
   background-color: white;
   .navbartitle {
     color: black;
@@ -20,22 +23,22 @@
   }
 }
 
-.footer {
-  font-family: $body-font;
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #E9ECEF;
-  height: 12%;
-  align-items: center;
-  border-top: 1px solid #343A40;
-  img {
-    opacity: 0.75;
-    transition: all .2s ease-in-out;
-  }
-  img:hover {
-    transform: scale(1.1);
-    opacity: 1;
-  }
-}
+// .footer {
+//   font-family: $body-font;
+//   display: flex;
+//   position: fixed;
+//   bottom: 0;
+//   width: 100%;
+//   background-color: #E9ECEF;
+//   height: 12%;
+//   align-items: center;
+//   border-top: 1px solid #343A40;
+//   img {
+//     opacity: 0.75;
+//     transition: all .2s ease-in-out;
+//   }
+//   img:hover {
+//     transform: scale(1.1);
+//     opacity: 1;
+//   }
+// }
