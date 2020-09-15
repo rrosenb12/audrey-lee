@@ -12,7 +12,6 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 30%;
-
         .homewrapper{
             border: 5px double #d62828;
             width: 90%;
@@ -36,42 +35,48 @@
 }
 
 @media only screen and (min-width: 640px){
-    .homewrapper {
-        width: 100%;
-        display: flex;
-        .bioleft {
-            width: $col-4;
-            font-family: $body-font;
+    .wrapper {
+        .homewrapper {
             display: flex;
-            align-items: center;
-            text-align: justify;
-            margin-left: 1%;
-        }
-        .imgwrapper {
-            width: $col-4;
-            display: inline-block;
-            text-align: center;
-            font-family: $title-font;
-            .audreyhome {
-                max-height: 100%;
-                max-width: 60%;
-                height: auto;
-                width: auto;
-                padding-left: 0.5%;
-                padding-right: 0.5%;
-                padding-bottom: 0.4%;
-                padding-top: 0.4%;
-                border: 10px double #343A40;
+            .imgwrapper {
+                height: 70%;
+                width: $col-5;
+                display: inline-block;
+                text-align: center;
+                font-family: $title-font;
+                .audreyhome {
+                    max-height: 100%;
+                    max-width: 60%;
+                    height: auto;
+                    width: auto;
+                    padding-left: 0.5%;
+                    padding-right: 0.5%;
+                    padding-bottom: 0.4%;
+                    padding-top: 0.4%;
+                    border: 10px double #343A40;
+                }
             }
-        }
-        .bioright {
-            width: $col-4;
-            font-family: $body-font;
-            display: flex;
-            align-items: center;
-            margin-right: 1%;
-            text-align: justify;
-            text-align-last: right;
+            .textwrapper {
+                width: $col-7;
+                display: flex;
+                margin-right: 2%;
+                .bioleft {
+                    width: $col-6;
+                    font-family: $body-font;
+                    display: flex;
+                    text-align: justify;
+                    margin-right: 2%;
+                    margin-top: 10%;
+                }
+                .bioright {
+                    width: $col-6;
+                    font-family: $body-font;
+                    display: flex;
+                    margin-left: 1%;
+                    text-align: justify;
+                    margin-top: 10%;
+                }
+            }
         }
     }
 }

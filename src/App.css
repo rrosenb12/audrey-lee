@@ -139,25 +139,17 @@
   }
 }
 @media only screen and (min-width: 640px) {
-  .homewrapper {
-    width: 100%;
+  .wrapper .homewrapper {
     display: flex;
   }
-  .homewrapper .bioleft {
-    width: 33.33%;
-    font-family: "Lato", sans-serif;
-    display: flex;
-    align-items: center;
-    text-align: justify;
-    margin-left: 1%;
-  }
-  .homewrapper .imgwrapper {
-    width: 33.33%;
+  .wrapper .homewrapper .imgwrapper {
+    height: 70%;
+    width: 41.66%;
     display: inline-block;
     text-align: center;
     font-family: "Cinzel", serif;
   }
-  .homewrapper .imgwrapper .audreyhome {
+  .wrapper .homewrapper .imgwrapper .audreyhome {
     max-height: 100%;
     max-width: 60%;
     height: auto;
@@ -168,14 +160,26 @@
     padding-top: 0.4%;
     border: 10px double #343A40;
   }
-  .homewrapper .bioright {
-    width: 33.33%;
+  .wrapper .homewrapper .textwrapper {
+    width: 58.33%;
+    display: flex;
+    margin-right: 2%;
+  }
+  .wrapper .homewrapper .textwrapper .bioleft {
+    width: 50%;
     font-family: "Lato", sans-serif;
     display: flex;
-    align-items: center;
-    margin-right: 1%;
     text-align: justify;
-    text-align-last: right;
+    margin-right: 2%;
+    margin-top: 10%;
+  }
+  .wrapper .homewrapper .textwrapper .bioright {
+    width: 50%;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    margin-left: 1%;
+    text-align: justify;
+    margin-top: 10%;
   }
 }
 body {
