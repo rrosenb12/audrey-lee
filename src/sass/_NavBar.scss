@@ -39,6 +39,9 @@
     font-size: 60%;
     text-decoration: none;
     display: flex;
+    position: fixed;
+    top: 0;
+    height: 10%;
     align-items: center;
     width: $col-12;
     border-bottom: 1px solid #343A40;

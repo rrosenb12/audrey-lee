@@ -7,7 +7,7 @@
 
 @media only screen and (max-width: 640px){
     .wrapper{
-        margin-top: 6%;
+        margin-top: 25%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -39,10 +39,11 @@
         .homewrapper {
             display: flex;
             .imgwrapper {
-                height: 70%;
                 width: $col-5;
-                display: inline-block;
-                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 3%;
                 font-family: $title-font;
                 .audreyhome {
                     max-height: 100%;
@@ -59,7 +60,7 @@
             .textwrapper {
                 width: $col-7;
                 display: flex;
-                margin-right: 2%;
+                margin-right: 5%;
                 .bioleft {
                     width: $col-6;
                     font-family: $body-font;
@@ -67,6 +68,8 @@
                     text-align: justify;
                     margin-right: 2%;
                     margin-top: 10%;
+                    border-right: 1px solid #343A40;
+                    padding-right: 3%;
                 }
                 .bioright {
                     width: $col-6;
@@ -75,6 +78,8 @@
                     margin-left: 1%;
                     text-align: justify;
                     margin-top: 10%;
+                    padding-left: 3%;
+                    border-left: 1px solid #343A40;
                 }
             }
         }

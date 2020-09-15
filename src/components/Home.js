@@ -8,7 +8,6 @@ export default function Home(){
             <div className="wrapper">
                 <div className="homewrapper">
                     <div className="imgwrapper">
-                        <h5>poet, essayist, fiction writer, and literary creative</h5>
                         <img className="audreyhome" src={audrey1} alt="audrey lee"/>
                     </div>
                     <div className="textwrapper">

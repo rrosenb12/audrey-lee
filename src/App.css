@@ -42,6 +42,9 @@
     font-size: 60%;
     text-decoration: none;
     display: flex;
+    position: fixed;
+    top: 0;
+    height: 10%;
     align-items: center;
     width: 100%;
     border-bottom: 1px solid #343A40;
@@ -112,7 +115,7 @@
 
 @media only screen and (max-width: 640px) {
   .wrapper {
-    margin-top: 6%;
+    margin-top: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,10 +146,11 @@
     display: flex;
   }
   .wrapper .homewrapper .imgwrapper {
-    height: 70%;
     width: 41.66%;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
     font-family: "Cinzel", serif;
   }
   .wrapper .homewrapper .imgwrapper .audreyhome {
@@ -163,7 +167,7 @@
   .wrapper .homewrapper .textwrapper {
     width: 58.33%;
     display: flex;
-    margin-right: 2%;
+    margin-right: 5%;
   }
   .wrapper .homewrapper .textwrapper .bioleft {
     width: 50%;
@@ -172,6 +176,8 @@
     text-align: justify;
     margin-right: 2%;
     margin-top: 10%;
+    border-right: 1px solid #343A40;
+    padding-right: 3%;
   }
   .wrapper .homewrapper .textwrapper .bioright {
     width: 50%;
@@ -180,6 +186,8 @@
     margin-left: 1%;
     text-align: justify;
     margin-top: 10%;
+    padding-left: 3%;
+    border-left: 1px solid #343A40;
   }
 }
 body {
