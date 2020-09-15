@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import ddbutton from './glyphs/ddbutton.png'
+import ddbutton from '../glyphs/ddbutton.png'
 
 export default class NavBar extends React.Component{
 

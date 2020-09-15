@@ -1,8 +1,8 @@
-import facebookglpyh from './glyphs/facebook.svg'
-import twitterglyph from './glyphs/twitter.svg'
-import instaglyph from './glyphs/instagram.svg'
-import linkedinglyph from './glyphs/linkedin.svg'
-import emailglyph from './glyphs/email.png'
+import facebookglpyh from '../glyphs/facebook.svg'
+import twitterglyph from '../glyphs/twitter.svg'
+import instaglyph from '../glyphs/instagram.svg'
+import linkedinglyph from '../glyphs/linkedin.svg'
+import emailglyph from '../glyphs/email.png'
 import React from 'react'
 
 export default function Footer(){
