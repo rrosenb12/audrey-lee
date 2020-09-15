@@ -12,7 +12,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 0;
   width: 100%;
   border-bottom: 1px solid #343A40;
   background-color: white;
@@ -22,6 +21,26 @@
 }
 .navbar .navbaritem {
   margin: 1%;
+}
+
+.footer {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #E9ECEF;
+  height: 12%;
+  align-items: center;
+  border-top: 1px solid #343A40;
+}
+.footer img {
+  opacity: 0.75;
+  transition: all 0.2s ease-in-out;
+}
+.footer img:hover {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 .homewrapper::after {
