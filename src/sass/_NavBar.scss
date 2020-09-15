@@ -47,18 +47,25 @@
         color: #d62828;
       }
     }
-    .ddbutton {
-      float: left;
-      display: flex;
-      margin-top: auto;
-      margin-bottom: auto;
-      // transition: transform .2s ease-in-out;
-      // -webkit-transition: -webkit-transform .2s ease-in-out;
+    #ddbutton {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: all 0.4s ease-in;
+      -moz-transition: all 0.4s ease-in;
+      -o-transition: all 0.4s ease-in;
+      transition: all 0.4s ease-in;
     }
-    .ddbutton:hover{
-      // background-color: red;
-      // -webkit-transform: rotate(90deg);
-      // transform: rotate(90deg);
+    .rotate {
+      -webkit-transform: rotate(90deg)!important;
+      -moz-transform: rotate(90deg)!important;
+      -ms-transform: rotate(90deg)!important;
+      transform: rotate(90deg)!important;
+      -webkit-transition: all 0.4s ease-in;
+      -moz-transition: all 0.4s ease-in;
+      -o-transition: all 0.4s ease-in;
+      transition: all 0.4s ease-in;
     }
   }
 
