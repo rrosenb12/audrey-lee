@@ -8,13 +8,12 @@ export default class NavBar extends React.Component{
         rotate: false
     }
 
-    clickHandler = (e) => {
-        console.log(e.target.className)
+    clickHandler = () => {
         this.setState(previousState => {
             return {
                 rotate: !previousState.rotate
             }
-        }, () => console.log(this.state.rotate))
+        })
     }
 
     render(){

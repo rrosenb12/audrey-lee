@@ -104,22 +104,33 @@
   display: table;
 }
 
-.bioleft {
-  width: 100%;
-  font-family: "Lato", sans-serif;
-  text-align: justify;
+@media only screen and (max-width: 640px) {
+  .wrapper {
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper .homewrapper {
+    border: 5px double #d62828;
+    width: 90%;
+    padding: 2%;
+  }
+  .wrapper .homewrapper .bioleft {
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    text-align: justify;
+    margin-right: 1%;
+  }
+  .wrapper .homewrapper .imgwrapper {
+    display: none;
+  }
+  .wrapper .homewrapper .bioright {
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    text-align: justify;
+  }
 }
-
-.imgwrapper {
-  display: none;
-}
-
-.bioright {
-  width: 100%;
-  font-family: "Lato", sans-serif;
-  text-align: justify;
-}
-
 @media only screen and (min-width: 640px) {
   .homewrapper {
     width: 100%;
