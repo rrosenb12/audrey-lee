@@ -1,28 +1,6 @@
 @import 'fonts';
 @import 'columns';
 
-.navbarrow::after{
-  @include row;
-}
-
-.navbar {
-  font-family: $title-font;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  // top: 0;
-  width: $col-12;
-  border-bottom: 1px solid #343A40;
-  background-color: white;
-  .navbartitle {
-    color: black;
-  }
-  .navbaritem {
-    margin: 1%;
-  }
-}
-
 .footer {
   font-family: $body-font;
   display: flex;
@@ -40,5 +18,75 @@
   img:hover {
     transform: scale(1.1);
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 758px){
+  .navbarrow {
+    display: none;
+  }
+
+  .smallnavbarrow::after{
+    @include row;
+  }
+
+  .smallnavbarrow {
+    font-family: $title-font;
+    font-size: 60%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: $col-12;
+    border-bottom: 1px solid #343A40;
+    background-color: #E9ECEF;
+    .titlewrapper{
+      display: flex;
+      margin-right: auto;
+      margin-left: auto;
+      .navbartitle {
+        color: #d62828;
+      }
+    }
+    .ddbutton {
+      float: left;
+      display: flex;
+      margin-top: auto;
+      margin-bottom: auto;
+      // transition: transform .2s ease-in-out;
+      // -webkit-transition: -webkit-transform .2s ease-in-out;
+    }
+    .ddbutton:hover{
+      // background-color: red;
+      // -webkit-transform: rotate(90deg);
+      // transform: rotate(90deg);
+    }
+  }
+
+}
+
+@media only screen and (min-width: 758px){
+  .smallnavbarrow {
+    display: none;
+  }
+
+  .navbarrow::after{
+    @include row;
+  }
+
+  .navbar {
+    font-family: $title-font;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $col-12;
+    border-bottom: 1px solid #343A40;
+    background-color: white;
+    .navbartitle {
+      color: black;
+    }
+    .navbaritem {
+      margin: 1%;
+    }
   }
 }

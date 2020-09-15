@@ -1,28 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
-.navbarrow::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.navbar {
-  font-family: "Cinzel", serif;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  border-bottom: 1px solid #343A40;
-  background-color: white;
-}
-.navbar .navbartitle {
-  color: black;
-}
-.navbar .navbaritem {
-  margin: 1%;
-}
-
 .footer {
   font-family: "Lato", sans-serif;
   display: flex;
@@ -43,6 +20,70 @@
   opacity: 1;
 }
 
+@media only screen and (max-width: 758px) {
+  .navbarrow {
+    display: none;
+  }
+
+  .smallnavbarrow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .smallnavbarrow {
+    font-family: "Cinzel", serif;
+    font-size: 60%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #343A40;
+    background-color: #E9ECEF;
+  }
+  .smallnavbarrow .titlewrapper {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .smallnavbarrow .titlewrapper .navbartitle {
+    color: #d62828;
+  }
+  .smallnavbarrow .ddbutton {
+    float: left;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+@media only screen and (min-width: 758px) {
+  .smallnavbarrow {
+    display: none;
+  }
+
+  .navbarrow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .navbar {
+    font-family: "Cinzel", serif;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #343A40;
+    background-color: white;
+  }
+  .navbar .navbartitle {
+    color: black;
+  }
+  .navbar .navbaritem {
+    margin: 1%;
+  }
+}
 .homewrapper::after {
   content: "";
   clear: both;
