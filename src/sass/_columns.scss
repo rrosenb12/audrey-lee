@@ -11,8 +11,8 @@ $col-10: 83.33%;
 $col-11: 91.66%;
 $col-12: 100%;
 
-@mixin row{
-    content: "";
-    clear: both;
-    display: table;
+@mixin row {
+  content: "";
+  clear: both;
+  display: table;
 }
