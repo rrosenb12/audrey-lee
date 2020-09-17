@@ -96,10 +96,15 @@
     border-bottom: 1px solid #343a40;
     background-color: white;
     .navbartitle {
+      width: $col-12;
+      display: flex;
       color: black;
     }
     .navbaritem {
-      margin: 1%;
+      display: flex;
+      justify-content: center;
+      margin-left: 3%;
+      margin-right: 3%;
     }
   }
 }

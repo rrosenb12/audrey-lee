@@ -20,20 +20,20 @@ export default class NavBar extends React.Component {
       <>
         <div className="navbarrow">
           <div className="navbar">
-            <NavLink to="/publications">
-              <p className="navbaritem">Publications</p>
+            <NavLink className="navbaritem" to="/publications">
+              <p>Publications</p>
             </NavLink>
-            <NavLink to="probably-angels">
-              <p className="navbaritem">Probably, Angels</p>
+            <NavLink className="navbaritem" to="probably-angels">
+              <p>Probably, Angels</p>
             </NavLink>
             <NavLink to="/">
               <h1 className="navbartitle">Audrey Lee</h1>
             </NavLink>
-            <NavLink to="awards">
-              <p className="navbaritem">Awards & Recognitions</p>
+            <NavLink className="navbaritem" to="awards">
+              <p>Awards & Recognitions</p>
             </NavLink>
-            <NavLink to="media">
-              <p className="navbaritem">Media</p>
+            <NavLink className="navbaritem" to="media">
+              <p>Media</p>
             </NavLink>
           </div>
         </div>
