@@ -95,16 +95,19 @@
     width: $col-12;
     border-bottom: 1px solid #343a40;
     background-color: white;
+    text-align: center;
     .navbartitle {
       width: $col-12;
       display: flex;
       color: black;
+      font-size: 2vw;
     }
     .navbaritem {
       display: flex;
       justify-content: center;
       margin-left: 3%;
       margin-right: 3%;
+      font-size: 1.25vw;
     }
   }
 }
