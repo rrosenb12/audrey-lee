@@ -3,6 +3,10 @@ import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 
 export default class Years extends React.Component {
+  clickHandler = (e) => {
+    this.props.getYear(e.target.id);
+  };
+
   render() {
     return (
       <Carousel
@@ -14,12 +18,24 @@ export default class Years extends React.Component {
         clickToChange
         centered
       >
-        <p className="carousel-start"><strong>drag me...</strong></p>
-        <p className="year">2016</p>
-        <p className="year">2017</p>
-        <p className="year">2018</p>
-        <p className="year">2019</p>
-        <p className="year">2020</p>
+        <p className="carousel-start">
+          <strong>drag me...</strong>
+        </p>
+        <p id="2016" className="year" onClick={this.clickHandler}>
+          2016
+        </p>
+        <p id="2017" className="year" onClick={this.clickHandler}>
+          2017
+        </p>
+        <p id="2018" className="year" onClick={this.clickHandler}>
+          2018
+        </p>
+        <p id="2019" className="year" onClick={this.clickHandler}>
+          2019
+        </p>
+        <p id="2020" className="year" onClick={this.clickHandler}>
+          2020
+        </p>
       </Carousel>
     );
   }
