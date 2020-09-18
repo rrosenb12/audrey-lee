@@ -7,13 +7,14 @@ export default class Years extends React.Component {
     return (
       <Carousel
         slidesPerPage={5}
-        slidesPerScroll={2}
+        slidesPerScroll={3}
         animationSpeed={1500}
         offset={1}
         itemWidth={200}
         clickToChange
         centered
       >
+        <p className="carousel-start"><strong>drag me...</strong></p>
         <p className="year">2016</p>
         <p className="year">2017</p>
         <p className="year">2018</p>

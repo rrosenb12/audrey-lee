@@ -1,22 +1,37 @@
 @import "fonts";
 @import "columns";
 
-.publications-wrapper::after{
-    @include row;
+.publications-wrapper::after {
+  @include row;
 }
 
-.publications-wrapper{
-    .carousel-wrapper{
-        .year{
-            font-family: $title-font
-        }    
+.publications-wrapper {
+  .publications-title {
+    font-family: $title-font;
+    width: $col-12;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3vw;
+  }
+  .carousel-wrapper {
+    width: $col-12;
+    .carousel-start {
+      font-family: $title-font;
     }
+    .year {
+      font-family: $title-font;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        color: #d62828;
+      }
+    }
+  }
 }
 
-@media only screen and (max-width: 758px){
-    .publications-wrapper{
-        .carousel-wrapper{
-            display: none;
-        }
+@media only screen and (max-width: 758px) {
+  .publications-wrapper {
+    .carousel-wrapper {
+      display: none;
     }
+  }
 }

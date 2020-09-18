@@ -99,7 +99,7 @@
     justify-content: center;
     width: 100%;
     border-bottom: 1px solid #343a40;
-    background-color: white;
+    background-color: #e9ecef;
     text-align: center;
   }
   .navbar .navbartitle {
@@ -205,8 +205,25 @@
   display: table;
 }
 
+.publications-wrapper .publications-title {
+  font-family: "Cinzel", serif;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 3vw;
+}
+.publications-wrapper .carousel-wrapper {
+  width: 100%;
+}
+.publications-wrapper .carousel-wrapper .carousel-start {
+  font-family: "Cinzel", serif;
+}
 .publications-wrapper .carousel-wrapper .year {
   font-family: "Cinzel", serif;
+  transition: all 0.2s ease-in-out;
+}
+.publications-wrapper .carousel-wrapper .year:hover {
+  color: #d62828;
 }
 
 @media only screen and (max-width: 758px) {
