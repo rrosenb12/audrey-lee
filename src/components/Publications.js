@@ -6,6 +6,7 @@ import Y2017 from "./PubYears/y2017";
 import Y2018 from "./PubYears/y2018";
 import Y2019 from "./PubYears/y2019";
 import Y2020 from "./PubYears/y2020";
+import {pubData} from "../data"
 
 export default class Publications extends React.Component {
   state = {
@@ -32,6 +33,7 @@ export default class Publications extends React.Component {
   };
 
   render() {
+    console.log(pubData)
     return (
       <>
         <div className="publications-wrapper">
