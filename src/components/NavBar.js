@@ -32,7 +32,7 @@ export default class NavBar extends React.Component {
             <NavLink className="navbaritem" to="awards">
               <p>Awards & Recognitions</p>
             </NavLink>
-            <NavLink className="navbaritem" to="media">
+            <NavLink className="navbaritem" to="/media">
               <p>Media</p>
             </NavLink>
           </div>

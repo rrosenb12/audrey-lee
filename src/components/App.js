@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./Home";
 import "../App.css";
 import Publications from "./Publications"
+import Media from "./Media"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavBar />
       <Route exact path="/" component={Home} />
       <Route exact path="/publications" component={Publications}/>
+      <Route exact path="/media" component={Media}/>
     </BrowserRouter>
   );
 }
