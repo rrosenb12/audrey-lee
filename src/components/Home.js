@@ -1,5 +1,5 @@
 import React from "react";
-import audrey1 from "../audrey1.jpg";
+import audrey1 from "../media/audrey1.jpg";
 import Footer from "./Footer";
 
 export default function Home() {
