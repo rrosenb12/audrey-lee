@@ -1,7 +1,12 @@
 import React from 'react'
+import Footer from './Footer'
 
 export default function Media(){
     return(
-        <h1>media page</h1>
+        <>
+            <div className="media-page-wrapper">
+            </div>
+            <Footer/>
+        </>
     )
 }
