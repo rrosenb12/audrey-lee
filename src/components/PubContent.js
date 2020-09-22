@@ -6,11 +6,12 @@ export default function PubContent(props) {
       {props.publications.map((publication) => {
         return (
           <div className="pub-card" type={publication.type}>
-            <p>{publication.title}</p>
+            <a href={publication.url} target="_blank" rel="noopener noreferrer">
+              {publication.title}
+            </a>
             {publication.publication.map((pub) => (
               <p>{pub}</p>
             ))}
-            <p>{publication.url}</p>
           </div>
         );
       })}
