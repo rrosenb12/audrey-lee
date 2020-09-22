@@ -205,15 +205,16 @@
   display: table;
 }
 
+.publications-wrapper {
+  height: 100%;
+  margin-bottom: 5%;
+}
 .publications-wrapper .publications-title {
   font-family: "Cinzel", serif;
-  width: 100%;
   text-align: center;
   margin: 0 auto;
+  padding-top: 1%;
   font-size: 2.5vw;
-}
-.publications-wrapper .carousel-wrapper {
-  width: 100%;
 }
 .publications-wrapper .carousel-wrapper .carousel-start {
   font-family: "Cinzel", serif;
@@ -225,12 +226,37 @@
 .publications-wrapper .carousel-wrapper .year:hover {
   color: #d62828;
 }
+.publications-wrapper .pub-cards-wrapper {
+  max-width: 91.66%;
+  margin: 1% auto;
+  column-gap: 1%;
+  column-count: 4;
+}
+.publications-wrapper .pub-cards-wrapper .pub-card {
+  display: inline-block;
+  margin: 0 0 4%;
+  padding: 2%;
+  width: 100%;
+  border: 1px solid black;
+}
 
 @media only screen and (max-width: 758px) {
+  .publications-wrapper {
+    margin-top: 12%;
+    margin-bottom: 5%;
+  }
   .publications-wrapper .carousel-wrapper {
     display: none;
   }
+  .publications-wrapper .pub-cards-wrapper {
+    width: 50%;
+    column-count: 2;
+  }
 }
+html {
+  box-sizing: border-box;
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -241,8 +267,10 @@ a {
   color: black;
 }
 
-* {
-  box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 /*# sourceMappingURL=App.css.map */

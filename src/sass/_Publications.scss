@@ -6,15 +6,16 @@
 }
 
 .publications-wrapper {
+  height: 100%;
+  margin-bottom: 5%;
   .publications-title {
     font-family: $title-font;
-    width: $col-12;
     text-align: center;
     margin: 0 auto;
+    padding-top: 1%;
     font-size: 2.5vw;
   }
   .carousel-wrapper {
-    width: $col-12;
     .carousel-start {
       font-family: $title-font;
     }
@@ -26,12 +27,31 @@
       }
     }
   }
+  .pub-cards-wrapper{
+    max-width: $col-11;
+    margin: 1% auto;
+    column-gap: 1%;
+    column-count: 4;
+    .pub-card{
+      display: inline-block;
+      margin: 0 0 4%;
+      padding: 2%;
+      width: $col-12;
+      border: 1px solid black;
+    }
+  }
 }
 
 @media only screen and (max-width: 758px) {
   .publications-wrapper {
+    margin-top: 12%;
+    margin-bottom: 5%;
     .carousel-wrapper {
       display: none;
+    }
+    .pub-cards-wrapper{
+      width: $col-6;
+      column-count: 2;
     }
   }
 }
