@@ -17,7 +17,6 @@ export default function Footer() {
           className="contactglyph"
           src={facebookglpyh}
           alt="facebook icon"
-          height="30"
         />
       </a>
       <a
@@ -29,7 +28,6 @@ export default function Footer() {
           className="contactglyph"
           src={twitterglyph}
           alt="twitter icon"
-          height="30"
         />
       </a>
       <a
@@ -41,7 +39,6 @@ export default function Footer() {
           className="contactglyph"
           src={instaglyph}
           alt="instagram icon"
-          height="30"
         />
       </a>
       <a
@@ -53,7 +50,6 @@ export default function Footer() {
           className="contactglyph"
           src={linkedinglyph}
           alt="linkedin icon"
-          height="30"
         />
       </a>
       <a
@@ -61,7 +57,12 @@ export default function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={emailglyph} alt="email icon" height="35" width="30" />
+        <img
+          className="contactglyph"
+          id="emailglyph"
+          src={emailglyph}
+          alt="email icon"
+        />
       </a>
     </div>
   );

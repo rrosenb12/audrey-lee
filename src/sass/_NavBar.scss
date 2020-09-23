@@ -1,31 +1,11 @@
 @import "fonts";
 @import "columns";
 
-.footer::after {
-  @include row;
-}
-
-.footer {
-  font-family: $body-font;
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  width: $col-12;
-  background-color: #e9ecef;
-  height: 12%;
-  align-items: center;
-  border-top: 1px solid #343a40;
-  img {
-    opacity: 0.75;
-    transition: all 0.2s ease-in-out;
-    &:hover {
-      transform: scale(1.1);
-      opacity: 1;
-    }
-  }
-}
-
 @media only screen and (max-width: 758px) {
+  .footer::after {
+    @include row;
+  }
+
   .navbarrow {
     display: none;
   }
@@ -36,12 +16,12 @@
 
   .smallnavbarrow {
     font-family: $title-font;
-    font-size: 60%;
+    font-size: 2vw;
     text-decoration: none;
     display: flex;
     position: fixed;
     top: 0;
-    height: 10%;
+    height: 10vw;
     align-items: center;
     width: $col-12;
     border-bottom: 1px solid #343a40;
@@ -63,6 +43,7 @@
       -moz-transition: all 0.4s ease-in;
       -o-transition: all 0.4s ease-in;
       transition: all 0.4s ease-in;
+      height: 100%;
     }
     .rotate {
       -webkit-transform: rotate(90deg) !important;
@@ -75,9 +56,37 @@
       transition: all 0.4s ease-in;
     }
   }
+
+  .footer {
+    font-family: $body-font;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: $col-12;
+    background-color: #e9ecef;
+    height: 12vw;
+    align-items: center;
+    border-top: 1px solid #343a40;
+    #emailglyph {
+      height: 5vh;
+    }
+    .contactglyph {
+      opacity: 0.75;
+      transition: all 0.2s ease-in-out;
+      width: 5vw;
+      &:hover {
+        transform: scale(1.1);
+        opacity: 1;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 758px) {
+  .footer::after {
+    @include row;
+  }
+
   .smallnavbarrow {
     display: none;
   }
@@ -96,6 +105,7 @@
     border-bottom: 1px solid #343a40;
     background-color: #e9ecef;
     text-align: center;
+    height: 12%;
     .navbartitle {
       width: $col-12;
       display: flex;
@@ -108,6 +118,30 @@
       margin-left: 3%;
       margin-right: 3%;
       font-size: 1.25vw;
+    }
+  }
+
+  .footer {
+    font-family: $body-font;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: $col-12;
+    background-color: #e9ecef;
+    height: 12%;
+    align-items: center;
+    border-top: 1px solid #343a40;
+    #emailglyph {
+      height: 10vh;
+    }
+    .contactglyph {
+      opacity: 0.75;
+      transition: all 0.2s ease-in-out;
+      width: 5vw;
+      &:hover {
+        transform: scale(1.1);
+        opacity: 1;
+      }
     }
   }
 }

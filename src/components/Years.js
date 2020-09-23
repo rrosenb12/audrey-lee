@@ -17,6 +17,14 @@ export default class Years extends React.Component {
         itemWidth={200}
         clickToChange
         centered
+        breakpoints={{
+          758: {
+            slidesPerPage: 5,
+            slidesPerScroll: 3,
+            clickToChange: true,
+            centered: false
+          }
+        }}
       >
         <p className="carousel-start">
           <strong>drag me...</strong>

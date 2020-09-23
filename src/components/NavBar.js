@@ -45,7 +45,6 @@ export default class NavBar extends React.Component {
             onClick={this.clickHandler}
             id="ddbutton"
             className={this.state.rotate ? "rotate" : ""}
-            height="50"
           />
           <div className="titlewrapper">
             <NavLink to="/">
