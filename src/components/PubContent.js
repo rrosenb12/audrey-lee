@@ -15,7 +15,7 @@ export default function PubContent(props) {
               {publication.title}
             </a>
             {publication.publication.map((pub) => (
-              <p className="pub-pub">{pub}</p>
+              <p className="pub-name">{pub}</p>
             ))}
           </div>
         );

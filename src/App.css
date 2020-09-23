@@ -218,6 +218,7 @@
 }
 .publications-wrapper .carousel-wrapper .carousel-start {
   font-family: "Cinzel", serif;
+  font-size: 2vw;
 }
 .publications-wrapper .carousel-wrapper .year {
   font-family: "Cinzel", serif;
@@ -231,22 +232,50 @@
   margin: 1% auto;
   column-gap: 1%;
   column-count: 4;
+  font-family: "Lato", sans-serif;
+  height: 100%;
 }
 .publications-wrapper .pub-cards-wrapper .pub-card {
   display: inline-block;
   margin: 0 0 4%;
-  padding: 2%;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-right: 2%;
   width: 100%;
-  border: 1px solid black;
+  border: 2px solid #343a40;
+  padding-bottom: -1%;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+.publications-wrapper .pub-cards-wrapper .pub-card:hover {
+  background-color: #e9ecef;
+}
+.publications-wrapper .pub-cards-wrapper .pub-card .pub-title {
+  transition: all 0.2s ease-in-out;
+  font-size: 2.5vw;
+}
+.publications-wrapper .pub-cards-wrapper .pub-card .pub-title:hover {
+  color: #d62828;
+}
+.publications-wrapper .pub-cards-wrapper .pub-card .pub-name {
+  font-size: 2vw;
 }
 
 @media only screen and (max-width: 758px) {
   .publications-wrapper {
-    margin-top: 12%;
+    margin-top: 25%;
     margin-bottom: 5%;
   }
   .publications-wrapper .carousel-wrapper {
-    display: none;
+    transform: rotate(90deg);
+    margin-right: 65%;
+    width: 50%;
+  }
+  .publications-wrapper .carousel-wrapper .carousel-start {
+    transform: rotate(270deg);
+  }
+  .publications-wrapper .carousel-wrapper .year {
+    transform: rotate(270deg);
   }
   .publications-wrapper .pub-cards-wrapper {
     width: 50%;
