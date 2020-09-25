@@ -6,14 +6,27 @@ export default function PubContent(props) {
       {props.publications.map((publication) => {
         return (
           <div className="pub-card" type={publication.type}>
-            <a
-              className="pub-title"
-              href={publication.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {publication.title}
-            </a>
+            {publication.url === "PRINT ONLY" ? (
+              <p
+                className="pub-title"
+                onClick={() =>
+                  window.alert(
+                    "Sorry, this publication is only available in print"
+                  )
+                }
+              >
+                {publication.title}
+              </p>
+            ) : (
+              <a
+                className="pub-title"
+                href={publication.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {publication.title}
+              </a>
+            )}
             {publication.publication.map((pub) => (
               <p className="pub-name">{pub}</p>
             ))}
