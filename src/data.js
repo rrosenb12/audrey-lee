@@ -8,7 +8,7 @@ export const pubData = {
     },
     {
       title: "Indiana, Hotter",
-      type: "Fiction",
+      type: "fiction",
       publication: ["Franklin & Marshall College English"],
       url:
         "https://www.fandm.edu/english/stories/2020/03/23/the-2020-jerome-irving-bank-memorial-short-story-prize",
@@ -40,19 +40,7 @@ export const pubData = {
       type: "poetry",
       publication: ["The Poetry Society of New York"],
       url:
-        "https://www.poetrysocietyny.org/pandemic-poems-may-day/2020/5/17/45-audrey-lee-allia-abudllah-matta",
-    },
-    {
-      title: "For My Ideation",
-      type: "poetry",
-      publication: ["The Sad Bitch Chronicles: Trigger Warning"],
-      url: "forthcoming",
-    },
-    {
-      title: "I Forgot This Feeling",
-      type: "poetry",
-      publication: ["The Sad Bitch Chronicles: Trigger Warning"],
-      url: "forthcoming",
+        "https://www.poetrysocietyny.org/pandemic-poems-may-day-blog/2020/5/17/45-audrey-lee-allia-abudllah-matta",
     },
   ],
   2019: [
@@ -82,7 +70,7 @@ export const pubData = {
       title: "Anger is a Girl",
       type: "poetry",
       publication: ["SWWIM"],
-      url: "https://www.swwim.org/single-post/2018/04/26/Anger-Is-a-Girl",
+      url: "https://www.swwim.org/blog/2018/5/4/anger-is-a-girl-by-audrey-lee?rq=audrey%20lee",
     },
     {
       title: "The Mariana Trench Isn't Dark Enough",
@@ -96,7 +84,7 @@ export const pubData = {
       publication: [
         "Underground: the Undergraduate Literary and Arts Magazine of Georgia State University",
       ],
-      url: "https://undergroundjournal.org/2018/11/30/13151/",
+      url: "PRINT ONLY",
     },
   ],
   2017: [
@@ -104,7 +92,7 @@ export const pubData = {
       title: "How to Hold a Home",
       type: "poetry",
       publication: ["Canvas Literary Journal"],
-      url: "http://ww7.canvasliteraryjournal.com/",
+      url: "PRINT ONLY",
     },
     {
       title: "Fruit Bats",
@@ -163,7 +151,7 @@ export const pubData = {
       title: "Tactile: Hope",
       type: "poetry",
       publication: ["Moledro Magazine"],
-      url: "https://www.moledromagazine.com/audrey-lee",
+      url: "PRINT ONLY",
     },
     {
       title: "contra / quia / femina",
@@ -176,24 +164,24 @@ export const pubData = {
       title: "Song of a Storm in Pennsylvania",
       type: "poetry",
       publication: ["Half Mystic Journal"],
-      url: "https://www.halfmystic.com/bookshop/nocturne",
+      url: "PRINT ONLY",
     },
     {
       title: "How to be Drawn",
       type: "poetry",
       publication: ["Paper Swans Press"],
-      url: "https://paperswans.co.uk/product/anthology-young-poets/",
+      url: "PRINT ONLY",
     },
     {
       title: "Young and Bipolar: The College Search With Mental Illness",
-      type: "article",
+      type: "essay",
       publication: ["The Mighty"],
       url:
         "https://themighty.com/2017/04/do-i-tell-colleges-about-mental-illness/",
     },
     {
       title: "Audrey Lee on Nocturne",
-      type: "article",
+      type: "essay",
       publication: ["Half Mystic Journal"],
       url: "https://www.halfmystic.com/blog/audrey-lee/",
     },
@@ -201,7 +189,7 @@ export const pubData = {
       title: "2086 Bayfield Ave. Arverne, New York",
       type: "fiction",
       publication: ["Aerie International"],
-      url: "https://aerieinternational.wordpress.com/aerie-international-2/",
+      url: "PRINT ONLY",
     },
     {
       title: "Sockets",
@@ -234,7 +222,7 @@ export const pubData = {
       type: "essay",
       publication: ["Chicago Literari"],
       url:
-        "https://chicagoliterati.com/2017/08/23/when-you-see-me-again-it-wont-be-me-growing-up-with-laura-palmer-by-audrey-lee/",
+        "https://chicagoliterati.wordpress.com/2017/08/23/when-you-see-me-again-it-wont-be-me-growing-up-with-laura-palmer-by-audrey-lee/",
     },
   ],
   2016: [
@@ -248,13 +236,13 @@ export const pubData = {
       title: "maybe i'm tired of being happy",
       type: "poetry",
       publication: ["The Claremont Review"],
-      url: "https://www.theclaremontreview.ca/",
+      url: "PRINT ONLY",
     },
     {
       title: "Monumental",
       type: "poetry",
       publication: ["The Claremont Review"],
-      url: "https://www.theclaremontreview.ca/",
+      url: "PRINT ONLY",
     },
   ],
 };
