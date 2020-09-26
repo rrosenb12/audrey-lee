@@ -10,11 +10,14 @@ export default function PubContent(props) {
               <p
                 className="pub-title-p-tag"
                 onClick={() =>
-                  // console.log(window.innerWidth)
-                  // window.innerWidth > 
-                  window.alert(
-                    "Sorry, this publication is only available in print"
-                  )
+                  // /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+                  //   navigator.userAgent
+                  // )
+                  //   ? console.log("mobile")
+                  //   : window.alert(
+                  //       "Sorry, this publication is only available in print"
+                  //     )
+                  window.alert("Sorry, this publication is only available in print")
                 }
               >
                 {publication.title}
