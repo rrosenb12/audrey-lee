@@ -56,7 +56,6 @@
       transition: all 0.4s ease-in;
     }
   }
-
   .footer {
     font-family: $body-font;
     display: flex;
@@ -67,9 +66,6 @@
     height: 12vw;
     align-items: center;
     border-top: 1px solid #343a40;
-    #emailglyph {
-      height: 5vh;
-    }
     .contactglyph {
       opacity: 0.75;
       transition: all 0.2s ease-in-out;

@@ -5,66 +5,72 @@
   @include row;
 }
 
-.publications-wrapper {
-  height: 100%;
-  margin-bottom: 5%;
-  .publications-title {
-    font-family: $title-font;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 1%;
-    font-size: 2.5vw;
-  }
-  .carousel-wrapper {
-    .carousel-start {
-      font-family: $title-font;
-      font-size: 2vw;
-    }
-    .year {
-      font-family: $title-font;
-      transition: all 0.2s ease-in-out;
-      &:hover {
-        color: #d62828;
-      }
-    }
-  }
-  .pub-cards-wrapper{
-    max-width: $col-11;
-    margin: 1% auto;
-    column-gap: 1%;
-    column-count: 4;
-    font-family: $body-font;
+@media only screen and (min-width: 758px) {
+  .publications-wrapper {
     height: 100%;
-    .pub-card{
-      display: inline-block;
-      margin: 0 0 4%;
-      padding-left: 2%;
-      padding-top: 2%;
-      padding-right: 2%;
-      width: $col-12;
-      border: 2px solid #343a40;
-      padding-bottom: -1%;
+    margin-bottom: 5%;
+    .publications-title {
+      font-family: $title-font;
       text-align: center;
-      transition: all 0.2s ease-in-out;
-      &:hover{
-        background-color: #e9ecef;
-      }
-      .pub-title{
-        transition: all 0.2s ease-in-out;
-        font-size: 2.5vw;
-        &:hover{
-          color: #d62828;
-        }
-      }
-      .pub-title-p-tag{
-        font-size: 2.5vw;
-        margin: 0 auto;
-        &:hover{
-          color: #d62828;
-        }
-      }
-      .pub-name{
+      margin: 0 auto;
+      padding-top: 1%;
+      font-size: 2.5vw;
+    }
+    .carousel-wrapper {
+      .carousel-start {
+        font-family: $title-font;
         font-size: 2vw;
+      }
+      .year {
+        font-family: $title-font;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+          color: #d62828;
+        }
+      }
+    }
+    .years-wrapper {
+      display: none;
+    }
+    .pub-cards-wrapper {
+      max-width: $col-11;
+      margin: 1% auto;
+      column-gap: 1%;
+      column-count: 4;
+      font-family: $body-font;
+      height: 100%;
+      .pub-card {
+        display: inline-block;
+        margin: 0 0 4%;
+        padding-left: 2%;
+        padding-top: 2%;
+        padding-right: 2%;
+        width: $col-12;
+        border: 2px solid #343a40;
+        padding-bottom: -1%;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+          background-color: #e9ecef;
+        }
+        .pub-title {
+          transition: all 0.2s ease-in-out;
+          font-size: 2.5vw;
+          &:hover {
+            color: #d62828;
+          }
+        }
+        .pub-title-p-tag {
+          font-size: 2.5vw;
+          margin: 0 auto;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            color: #d62828;
+          }
+        }
+        .pub-name {
+          font-size: 2vw;
+        }
       }
     }
   }
@@ -72,22 +78,80 @@
 
 @media only screen and (max-width: 758px) {
   .publications-wrapper {
-    margin-top: 25%;
+    margin-top: 10%;
     margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    .publications-title {
+      float: left;
+      font-size: 4vw;
+      font-family: $title-font;
+      width: $col-12;
+    }
     .carousel-wrapper {
-      transform: rotate(90deg);
-      margin-right: 65%;
-      width: $col-6;
-      .carousel-start{
-        transform: rotate(270deg)
-      }
-      .year{
-        transform: rotate(270deg)
+      display: none;
+    }
+    .years-wrapper {
+      width: $col-5;
+      height: 100%;
+      display: inline-block;
+      .year-button{
+        width: $col-8;
+        height: 10vh;
+        margin-bottom: 2%;
+        font-family: $body-font;
+        font-size: 3vw;
+        background-color: #e9ecef;
+        border: 2px solid #343a40;
+        border-radius: 5px;
+        &:focus{
+          outline: none;
+          border: 2px solid #d62828;
+          color: #d62828;
+        }
       }
     }
-    .pub-cards-wrapper{
-      width: $col-6;
+    .pub-cards-wrapper {
+      float: right;
+      width: $col-7;
       column-count: 2;
+      margin-bottom: 10%;
+      font-family: $body-font;
+      column-gap: 2%;
+      .pub-card {
+        display: inline-block;
+        margin: 0 0 4%;
+        padding-left: 2%;
+        padding-top: 2%;
+        padding-right: 2%;
+        width: $col-12;
+        border: 2px solid #343a40;
+        border-radius: 5px;
+        padding-bottom: -1%;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+          background-color: #e9ecef;
+        }
+        .pub-title {
+          transition: all 0.2s ease-in-out;
+          font-size: 2.5vw;
+          &:hover {
+            color: #d62828;
+          }
+        }
+        .pub-title-p-tag {
+          font-size: 2.5vw;
+          margin: 0 auto;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            color: #d62828;
+          }
+        }
+        .pub-name {
+          font-size: 2vw;
+        }
+      }
     }
   }
 }
