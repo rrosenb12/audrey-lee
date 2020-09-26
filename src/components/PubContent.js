@@ -8,7 +8,7 @@ export default function PubContent(props) {
           <div className="pub-card" type={publication.type}>
             {publication.url === "PRINT ONLY" ? (
               <p
-                className="pub-title"
+                className="pub-title-p-tag"
                 onClick={() =>
                   window.alert(
                     "Sorry, this publication is only available in print"

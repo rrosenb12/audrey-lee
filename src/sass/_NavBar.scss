@@ -128,16 +128,16 @@
     bottom: 0;
     width: $col-12;
     background-color: #e9ecef;
-    height: 12%;
+    height: 10%;
     align-items: center;
     border-top: 1px solid #343a40;
     #emailglyph {
-      height: 10vh;
+      height: 4vh;
     }
     .contactglyph {
       opacity: 0.75;
       transition: all 0.2s ease-in-out;
-      width: 5vw;
+      width: 2vw;
       &:hover {
         transform: scale(1.1);
         opacity: 1;
