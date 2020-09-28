@@ -17,7 +17,9 @@ export default function PubContent(props) {
                   //   : window.alert(
                   //       "Sorry, this publication is only available in print"
                   //     )
-                  window.alert("Sorry, this publication is only available in print")
+                  window.alert(
+                    "Sorry, this publication is only available in print"
+                  )
                 }
               >
                 {publication.title}
