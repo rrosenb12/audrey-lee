@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
 @media only screen and (max-width: 758px) {
   .footer::after {
     content: "";
@@ -385,6 +386,93 @@
     font-size: 2vw;
   }
 }
+.media-page-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.media-page-wrapper {
+  width: 100%;
+  margin-bottom: 10%;
+  display: flex;
+}
+.media-page-wrapper .media-page-left {
+  width: 33.33%;
+}
+.media-page-wrapper .media-page-left .img-alt-wrap {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+.media-page-wrapper .media-page-left .img-alt-wrap .alt-p {
+  position: absolute;
+  opacity: 0;
+  bottom: 50%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lato", sans-serif;
+  color: #343a40;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+.media-page-wrapper .media-page-left .img-alt-wrap img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+.media-page-wrapper .media-page-left .img-alt-wrap:hover > .alt-p {
+  opacity: 1;
+}
+.media-page-wrapper .media-page-left .img-alt-wrap:hover > img {
+  opacity: 0.3;
+}
+.media-page-wrapper .media-page-center {
+  width: 33.33%;
+}
+.media-page-wrapper .media-page-right {
+  width: 33.33%;
+}
+.media-page-wrapper .media-page-right .img-alt-wrap {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+.media-page-wrapper .media-page-right .img-alt-wrap .alt-p {
+  position: absolute;
+  opacity: 0;
+  bottom: 50%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lato", sans-serif;
+  color: #343a40;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+.media-page-wrapper .media-page-right .img-alt-wrap img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+.media-page-wrapper .media-page-right .img-alt-wrap:hover > .alt-p {
+  opacity: 1;
+}
+.media-page-wrapper .media-page-right .img-alt-wrap:hover > img {
+  opacity: 0.3;
+}
+
 html {
   box-sizing: border-box;
 }

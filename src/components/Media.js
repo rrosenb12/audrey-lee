@@ -9,19 +9,42 @@ export default function Media() {
   return (
     <>
       <div className="media-page-wrapper">
-        <img
-          src={author}
-          alt="Audrey with author Caitlin Horrocks, judge of the 2020 Jerome Irving Bank Prize"
-        />
-        <img src={desales} alt="Audrey reading at DeSales University" />
-        <img
-          src={maverick}
-          alt="Audrey reading at Maverick Duck Press's `A Poetry Tempest` at Evermore Coffee Roasters"
-        />
-        <img
-          src={studentoftheweek}
-          alt="Audrey for Main Line Student of the Week"
-        />
+        <div className="media-page-left">
+          <div className="img-alt-wrap">
+            <img
+              src={author}
+              alt="Audrey with author Caitlin Horrocks, judge of the 2020 Jerome Irving Bank Prize"
+            />
+            <p className="alt-p">
+              Audrey with author Caitlin Horrocks, judge of the 2020 Jerome
+              Irving Bank Prize
+            </p>
+          </div>
+          <div className="img-alt-wrap">
+            <img src={desales} alt="Audrey reading at DeSales University" />
+            <p className="alt-p">Audrey reading at DeSales University</p>
+          </div>
+        </div>
+        <div className="media-page-center"></div>
+        <div className="media-page-right">
+          <div className="img-alt-wrap">
+            <img
+              src={maverick}
+              alt="Audrey reading at Maverick Duck Press's `A Poetry Tempest` at Evermore Coffee Roasters"
+            />
+            <p className="alt-p">
+              Audrey reading at Maverick Duck Press's `A Poetry Tempest` at
+              Evermore Coffee Roasters
+            </p>
+          </div>
+          <div className="img-alt-wrap">
+            <img
+              src={studentoftheweek}
+              alt="Audrey for Main Line Student of the Week"
+            />
+            <p className="alt-p">Audrey for Main Line Student of the Week</p>
+          </div>
+        </div>
       </div>
       <Footer />
     </>
