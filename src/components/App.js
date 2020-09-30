@@ -5,6 +5,8 @@ import Home from "./Home";
 import "../App.css";
 import Publications from "./Publications";
 import Media from "./Media";
+import Videos from "./Videos";
+import Interviews from "./Interviews";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route exact path="/publications" component={Publications} />
       <Route exact path="/media" component={Media} />
+      <Route exact path="/media/videos" component={Videos} />
+      <Route exact path="/media/interviews" component={Interviews}/>
     </BrowserRouter>
   );
 }
