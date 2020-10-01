@@ -462,6 +462,7 @@
     border: 1px solid #343a40;
     border-radius: 15px;
     outline: none;
+    text-align: center;
   }
   .media-page-wrapper .media-page-center .media-button-wrapper .media-button:hover {
     background-color: #e9ecef;

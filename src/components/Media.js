@@ -29,11 +29,11 @@ export default function Media() {
         <div className="media-page-center">
           <h1>Please Select</h1>
           <div className="media-button-wrapper">
-            <NavLink to="/media/videos">
-              <button className="media-button">Videos</button>
+            <NavLink className="media-button" to="/media/videos">
+              Videos
             </NavLink>
-            <NavLink to="/media/interviews">
-              <button className="media-button">Interviews</button>
+            <NavLink className="media-button" to="/media/interviews">
+              Interviews
             </NavLink>
           </div>
         </div>

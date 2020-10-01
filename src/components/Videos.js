@@ -15,6 +15,15 @@ export default function Videos() {
           data-allowfullscreen="true"
           data-width="300"
         ></div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/xiFEec0Q0xE"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          title="Audrey reading at the Episcopal AcademyW"
+        ></iframe>
       </div>
     </>
   );
