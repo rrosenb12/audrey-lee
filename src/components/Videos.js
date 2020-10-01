@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Footer from "./Footer";
 
 export default function Videos() {
   return (
@@ -29,6 +30,7 @@ export default function Videos() {
           title="Audrey reading at the Episcopal Academy"
         ></iframe>
       </div>
+      <Footer />
     </>
   );
 }

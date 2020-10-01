@@ -70,7 +70,8 @@ export const pubData = {
       title: "Anger is a Girl",
       type: "poetry",
       publication: ["SWWIM"],
-      url: "https://www.swwim.org/blog/2018/5/4/anger-is-a-girl-by-audrey-lee?rq=audrey%20lee",
+      url:
+        "https://www.swwim.org/blog/2018/5/4/anger-is-a-girl-by-audrey-lee?rq=audrey%20lee",
     },
     {
       title: "The Mariana Trench Isn't Dark Enough",
@@ -246,3 +247,33 @@ export const pubData = {
     },
   ],
 };
+
+export const interviewData = [
+  {
+    interviewer: "The Episcopal Academy",
+    url:
+      "https://www.episcopalacademy.org/news-post-details/~post/audrey-lee-17-published-in-teen-vogue-20170407",
+  },
+  {
+    interviewer: "Ramona Magazine",
+    url: "https://ramonamag.com/2017/07/meet-audrey/",
+  },
+  {
+    interviewer: "The College Reporter",
+    url:
+      "http://www.the-college-reporter.com/wp-content/uploads/2017/08/First-Year-Edition-2017.pdf",
+  },
+  {
+    interviewer: "The Episcopal Academy",
+    url: "https://www.instagram.com/p/B3NYDauJyZ-/",
+  },
+  {
+    interviewer: "Franklin & Marshall College",
+    url: "https://www.instagram.com/p/B9R7VxOgQwY/",
+  },
+  {
+    interviewer: "Franklin & Marshall College",
+    url:
+      "https://www.fandm.edu/news/latest-news/2020/03/03/bank-prize-winner-audrey-lee-talk-about-inspiration-and-writing",
+  },
+];
