@@ -6,10 +6,14 @@ import { interviewData } from "../data";
 export default function Interviews() {
   return (
     <>
-      <NavLink to="/media">
-        <button className="back-button">Back</button>
-      </NavLink>
-      <h1>Interviews</h1>
+      <div className="interviews-top">
+        <div className="button-wrapper">
+          <NavLink to="/media">
+            <button className="back-button">Back</button>
+          </NavLink>
+        </div>
+        <h1 className="interviews-title">Interviews</h1>
+      </div>
       <div className="interviews-wrapper">
         {interviewData.map((interview) => (
           <div className="interview-card">
