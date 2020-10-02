@@ -7,7 +7,7 @@ export default function PubContent(props) {
         return (
           <div className="pub-card" type={publication.type}>
             {publication.url === "PRINT ONLY" ? (
-              <p
+              <h1
                 className="pub-title-p-tag"
                 onClick={() =>
                   // /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -23,7 +23,7 @@ export default function PubContent(props) {
                 }
               >
                 {publication.title}
-              </p>
+              </h1>
             ) : (
               <a
                 className="pub-title"
@@ -31,7 +31,9 @@ export default function PubContent(props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                <h1>
                 {publication.title}
+                </h1>
               </a>
             )}
             {publication.publication.map((pub) => (

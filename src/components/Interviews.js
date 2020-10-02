@@ -1,10 +1,14 @@
 import React from "react";
 import Footer from "./Footer";
+import { NavLink } from "react-router-dom";
 import { interviewData } from "../data";
 
 export default function Interviews() {
   return (
     <>
+      <NavLink to="/media">
+        <button className="back-button">Back</button>
+      </NavLink>
       <h1>Interviews</h1>
       <div className="interviews-wrapper">
         {interviewData.map((interview) => (

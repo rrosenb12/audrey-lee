@@ -291,7 +291,7 @@
   }
   .publications-wrapper .pub-cards-wrapper .pub-card .pub-title {
     transition: all 0.2s ease-in-out;
-    font-size: 2.5vw;
+    font-size: 1.25vw;
   }
   .publications-wrapper .pub-cards-wrapper .pub-card .pub-title:hover {
     color: #d62828;
@@ -370,7 +370,7 @@
   }
   .publications-wrapper .pub-cards-wrapper .pub-card .pub-title {
     transition: all 0.2s ease-in-out;
-    font-size: 2.5vw;
+    font-size: 1.25vw;
   }
   .publications-wrapper .pub-cards-wrapper .pub-card .pub-title:hover {
     color: #d62828;
@@ -525,6 +525,9 @@
     margin-right: auto;
     column-count: 2;
     column-gap: 1%;
+  }
+  .interviews-wrapper a {
+    transition: all 0.2s ease-in-out;
   }
   .interviews-wrapper a:hover {
     color: #d62828;
