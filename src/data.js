@@ -250,28 +250,34 @@ export const pubData = {
 
 export const interviewData = [
   {
+    title: "Audrey Lee '17 Published in Teen Vogue",
     interviewer: "The Episcopal Academy",
     url:
       "https://www.episcopalacademy.org/news-post-details/~post/audrey-lee-17-published-in-teen-vogue-20170407",
   },
   {
+    title: "MEET: Audrey",
     interviewer: "Ramona Magazine",
     url: "https://ramonamag.com/2017/07/meet-audrey/",
   },
   {
+    title: "Meet Audrey Lee, passionate writer from Devon, Pennsylvania",
     interviewer: "The College Reporter",
     url:
       "http://www.the-college-reporter.com/wp-content/uploads/2017/08/First-Year-Edition-2017.pdf",
   },
   {
+    title: "This week’s #alumnifeaturefriday is poet, essayist, fiction writer, and literary creative, Audrey Lee ‘17",
     interviewer: "The Episcopal Academy",
     url: "https://www.instagram.com/p/B3NYDauJyZ-/",
   },
   {
+    title: "Novelist and short story writer Caitlin Horrocks chose F&M senior Audrey Lee’s “Indiana, Hotter” as the winner of this year’s Jerome Irving Bank Memorial Short Story Prize.",
     interviewer: "Franklin & Marshall College",
     url: "https://www.instagram.com/p/B9R7VxOgQwY/",
   },
   {
+    title: "Bank Prize Winner Audrey Lee Talks About Inspiration and Writing",
     interviewer: "Franklin & Marshall College",
     url:
       "https://www.fandm.edu/news/latest-news/2020/03/03/bank-prize-winner-audrey-lee-talk-about-inspiration-and-writing",
