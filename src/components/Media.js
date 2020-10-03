@@ -44,7 +44,7 @@ export default function Media() {
               alt="Audrey reading at Maverick Duck Press's `A Poetry Tempest` at Evermore Coffee Roasters"
             />
             <p className="alt-p">
-              Audrey reading at Maverick Duck Press's `A Poetry Tempest` at
+              Audrey reading at Maverick Duck Press's "A Poetry Tempest" at
               Evermore Coffee Roasters
             </p>
           </div>

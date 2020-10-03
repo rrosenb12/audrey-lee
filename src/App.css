@@ -436,9 +436,10 @@
   }
   .media-page-wrapper .media-page-left .img-alt-wrap:hover > .alt-p {
     opacity: 1;
+    font-weight: bold;
   }
   .media-page-wrapper .media-page-left .img-alt-wrap:hover > img {
-    opacity: 0.3;
+    opacity: 0.1;
   }
   .media-page-wrapper .media-page-center {
     justify-items: center;
@@ -506,9 +507,10 @@
   }
   .media-page-wrapper .media-page-right .img-alt-wrap:hover > .alt-p {
     opacity: 1;
+    font-weight: bold;
   }
   .media-page-wrapper .media-page-right .img-alt-wrap:hover > img {
-    opacity: 0.3;
+    opacity: 0.1;
   }
 }
 .interviews-wrapper::after {

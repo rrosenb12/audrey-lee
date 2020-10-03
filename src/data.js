@@ -29,7 +29,7 @@ export const pubData = {
     },
     {
       title:
-        "Eulogy to the boy I played `Stop Smoking` by Car Seat Headrest for after leaving a dive bar at 2am",
+        "Eulogy to the boy I played \"Stop Smoking\" by Car Seat Headrest for after leaving a dive bar at 2am",
       type: "poetry",
       publication: ["Drunk Monkeys"],
       url:

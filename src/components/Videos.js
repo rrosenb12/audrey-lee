@@ -24,7 +24,7 @@ export default function Videos() {
             frameborder="0"
             allowTransparency="true"
             allowFullScreen="true"
-            title="Audrey reading `Indiana, Hotter` for the Franklin & Marshall College WRiters House Social Distancing Salon, March 2020"
+            title='Audrey reading "Indiana, Hotter" for the Franklin & Marshall College WRiters House Social Distancing Salon, March 2020'
           ></iframe>
           <iframe
             className="video"

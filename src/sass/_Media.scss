@@ -43,9 +43,10 @@
         }
         &:hover > .alt-p {
           opacity: 1;
+          font-weight: bold;
         }
         &:hover > img {
-          opacity: 0.3;
+          opacity: 0.1;
         }
       }
     }
@@ -113,9 +114,10 @@
         }
         &:hover > .alt-p {
           opacity: 1;
+          font-weight: bold;
         }
         &:hover > img {
-          opacity: 0.3;
+          opacity: 0.1;
         }
       }
     }
