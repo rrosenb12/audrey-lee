@@ -29,7 +29,7 @@ export const pubData = {
     },
     {
       title:
-        "Eulogy to the boy I played \"Stop Smoking\" by Car Seat Headrest for after leaving a dive bar at 2am",
+        'Eulogy to the boy I played "Stop Smoking" by Car Seat Headrest for after leaving a dive bar at 2am',
       type: "poetry",
       publication: ["Drunk Monkeys"],
       url:
@@ -267,12 +267,14 @@ export const interviewData = [
       "http://www.the-college-reporter.com/wp-content/uploads/2017/08/First-Year-Edition-2017.pdf",
   },
   {
-    title: "This week’s #alumnifeaturefriday is poet, essayist, fiction writer, and literary creative, Audrey Lee ‘17",
+    title:
+      "This week’s #alumnifeaturefriday is poet, essayist, fiction writer, and literary creative, Audrey Lee ‘17",
     interviewer: "The Episcopal Academy",
     url: "https://www.instagram.com/p/B3NYDauJyZ-/",
   },
   {
-    title: "Novelist and short story writer Caitlin Horrocks chose F&M senior Audrey Lee’s “Indiana, Hotter” as the winner of this year’s Jerome Irving Bank Memorial Short Story Prize.",
+    title:
+      "Novelist and short story writer Caitlin Horrocks chose F&M senior Audrey Lee’s “Indiana, Hotter” as the winner of this year’s Jerome Irving Bank Memorial Short Story Prize.",
     interviewer: "Franklin & Marshall College",
     url: "https://www.instagram.com/p/B9R7VxOgQwY/",
   },
@@ -283,3 +285,104 @@ export const interviewData = [
       "https://www.fandm.edu/news/latest-news/2020/03/03/bank-prize-winner-audrey-lee-talk-about-inspiration-and-writing",
   },
 ];
+
+export const awardsData = {
+  2013: [
+    {
+      type: "Davis Baldwin Prize in Creative Writing",
+      details: [],
+      url: "none",
+    },
+  ],
+  2014: [
+    {
+      type: "Scholastic Art and Writing Awards",
+      details: ["2 Gold Keys", "2 Silver Keys", "5 Honorable Mentions"],
+      url: "none",
+    },
+  ],
+  2015: [
+    {
+      type: "Scholastic Art and Writing Awards",
+      details: ["2 Gold Keys", "3 Silver Keys", "2 Honorable Mentions"],
+      url: "none",
+    },
+    {
+      type:
+        "Winner of the Stephen Hopkins Kalbach '72 Prize in Creative Writing",
+      details: [],
+      url: "none",
+    },
+  ],
+  2016: [
+    {
+      type: "Scholastic Art and Writing Awards",
+      details: ["2 Gold Keys", "1 Silver Key", "2 Honorable Mentions"],
+      url: "none",
+    },
+    {
+      type:
+        'Winner of the 2016 DeSales University Poetry Contest for the poem "Dancer\'s Love Letter"',
+      details: [],
+      url: "none",
+    },
+    {
+      type: 'Named "Main Line Student of the Week" for November 22nd',
+      details: [],
+      url:
+        "https://www.mainlinemedianews.com/news/region/episcopal-academy-senior-audrey-lee-is-main-line-student-of/article_3d70685e-7be9-5f6b-b94f-d295f6aea83e.html",
+    },
+  ],
+  2017: [
+    {
+      type: "Scholastic Art and Writing Awards",
+      details: ["3 Gold Keys", "3 Silver Keys", "2 Honorable Mentions"],
+      url: "none",
+    },
+    {
+      type:
+        'Top-10 Finalist out of 1,800 entries in the Columbia College of Chicago Young Author\'s Contest for the personal essay "Soft Stuff"',
+      details: [],
+      url: "none",
+    },
+    {
+      type: "Winner of Teen Vogue's March 2017 Lit Club Contest",
+      details: [],
+      url:
+        "https://www.teenvogue.com/story/our-lit-club-writing-contest-celebrates-the-beauty-of-sisterhood",
+    },
+    {
+      type: "Winner of the Howard E. Morgan Creative Writing Prize",
+      details: [],
+      url: "none",
+    },
+    {
+      type:
+        "Winner of the Stephen Hopkins Kalbach '72 Prize in Creative Writing",
+      details: [],
+      url: "none",
+    },
+  ],
+  2018: [
+    {
+      type:
+        'Finalist, the Phyllis C. Whitesell Prize for the essay "It\'s All Downhill from Here: Social Justice and its Intersections with Skiing and Snowboarding"',
+      details: [],
+      url: "none",
+    },
+  ],
+  2020: [
+    {
+      type:
+        'Winner of the Jerome Irving Bank Prize for the short story "Indiana Hotter"',
+      details: [],
+      url: "none",
+    },
+    {
+      type:
+        'Best of the Net nominee by Drunk Monkeys for the poem "Eulogy to the boy I played "Stop Smoking" by Car Seat Headrest for after leaving a dive bar at 2am"',
+      details: [],
+      url: "none",
+    },
+  ],
+};
