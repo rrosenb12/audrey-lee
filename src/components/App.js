@@ -8,6 +8,7 @@ import Media from "./Media";
 import Videos from "./Videos";
 import Interviews from "./Interviews";
 import ProbablyAngels from "./ProbablyAngels";
+import Awards from "./Awards";
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
       <Route exact path="/publications" component={Publications} />
       <Route exact path="/media" component={Media} />
       <Route exact path="/media/videos" component={Videos} />
-      <Route exact path="/media/interviews" component={Interviews}/>
-      <Route exact path="/probably-angels" component={ProbablyAngels}/>
+      <Route exact path="/media/interviews" component={Interviews} />
+      <Route exact path="/probably-angels" component={ProbablyAngels} />
+      <Route exact path="/awards" component={Awards} />
     </BrowserRouter>
   );
 }
