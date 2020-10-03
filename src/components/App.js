@@ -7,6 +7,7 @@ import Publications from "./Publications";
 import Media from "./Media";
 import Videos from "./Videos";
 import Interviews from "./Interviews";
+import ProbablyAngels from "./ProbablyAngels";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route exact path="/media" component={Media} />
       <Route exact path="/media/videos" component={Videos} />
       <Route exact path="/media/interviews" component={Interviews}/>
+      <Route exact path="/probably-angels" component={ProbablyAngels}/>
     </BrowserRouter>
   );
 }

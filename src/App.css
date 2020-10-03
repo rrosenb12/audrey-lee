@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
 @media only screen and (max-width: 758px) {
   .footer::after {
     content: "";
@@ -649,6 +650,40 @@
   }
   .videos-wrapper .content-wrapper .video {
     width: 100%;
+  }
+}
+.probably-angels-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (min-width: 758px) {
+  .probably-angels-wrapper {
+    width: 100%;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    margin-bottom: 10%;
+  }
+  .probably-angels-wrapper a {
+    transition: all 0.2s ease-in-out;
+  }
+  .probably-angels-wrapper a:hover {
+    color: #d62828;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .probably-angels-wrapper a:focus {
+    color: #d62828;
+    outline: black;
+  }
+  .probably-angels-wrapper img {
+    max-width: 60%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
   }
 }
 html {

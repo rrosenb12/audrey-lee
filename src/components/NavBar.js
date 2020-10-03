@@ -23,7 +23,7 @@ export default class NavBar extends React.Component {
             <NavLink className="navbaritem" to="/publications">
               <p>Publications</p>
             </NavLink>
-            <NavLink className="navbaritem" to="probably-angels">
+            <NavLink className="navbaritem" to="/probably-angels">
               <p>Probably, Angels</p>
             </NavLink>
             <NavLink to="/">
