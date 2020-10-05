@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap");
@@ -126,7 +128,7 @@
     justify-content: center;
     margin-left: 3%;
     margin-right: 3%;
-    font-size: 1.25vw;
+    font-size: 1.5vw;
   }
 
   .footer {
@@ -686,6 +688,74 @@
     height: auto;
   }
 }
+.awards-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (min-width: 758px) {
+  .awards-wrapper {
+    height: 100%;
+    margin-bottom: 5%;
+  }
+  .awards-wrapper .awards-title {
+    font-family: "Cinzel", serif;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1%;
+    font-size: 2.5vw;
+  }
+  .awards-wrapper .carousel-wrapper {
+    border-bottom: 2px dotted #343a40;
+    border-top: 2px dotted #343a40;
+  }
+  .awards-wrapper .carousel-wrapper .year {
+    font-family: "Cinzel", serif;
+    font-size: 2vw;
+    transition: all 0.2s ease-in-out;
+    margin: 10%;
+  }
+  .awards-wrapper .carousel-wrapper .year:hover {
+    color: #d62828;
+  }
+  .awards-wrapper .years-wrapper {
+    display: none;
+  }
+  .awards-wrapper .award-content-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    font-family: "Lato", sans-serif;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .awards-wrapper .award-content-wrapper .award-card {
+    width: 100%;
+  }
+  .awards-wrapper .award-content-wrapper .award-card ul {
+    font-weight: bold;
+    padding-bottom: 6%;
+    font-size: 2vw;
+  }
+  .awards-wrapper .award-content-wrapper .award-card ul::first-letter {
+    font-family: "Cinzel", serif;
+    font-size: 3vw;
+  }
+  .awards-wrapper .award-content-wrapper .award-card ul li::before {
+    content: "☆";
+    color: #d62828;
+    display: inline-block;
+    width: 6%;
+  }
+  .awards-wrapper .award-content-wrapper .award-card ul li {
+    margin-top: 1%;
+    font-weight: lighter;
+    text-align: justify;
+    list-style: none;
+  }
+}
 html {
   box-sizing: border-box;
 }
@@ -700,16 +770,16 @@ a {
   color: black;
 }
 
-.alert {
-  color: red;
-  font-weight: bold;
-  font-size: 2.5vw;
-}
-
 *,
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+.alert {
+  color: red;
+  font-weight: bold;
+  font-size: 2.5vw;
 }
 
 /*# sourceMappingURL=App.css.map */

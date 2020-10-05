@@ -1,0 +1,69 @@
+@import "fonts";
+@import "columns";
+
+.awards-wrapper::after {
+  @include row;
+}
+
+@media only screen and (min-width: 758px) {
+  .awards-wrapper {
+    height: 100%;
+    margin-bottom: 5%;
+    .awards-title {
+      font-family: $title-font;
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 1%;
+      font-size: 2.5vw;
+    }
+    .carousel-wrapper {
+      border-bottom: 2px dotted #343a40;
+      border-top: 2px dotted #343a40;
+      .year {
+        font-family: $title-font;
+        font-size: 2vw;
+        transition: all 0.2s ease-in-out;
+        margin: 10%;
+        &:hover {
+          color: #d62828;
+        }
+      }
+    }
+    .years-wrapper {
+      display: none;
+    }
+    .award-content-wrapper {
+      margin-right: auto;
+      margin-left: auto;
+      width: $col-6;
+      font-family: $body-font;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      .award-card {
+        width: $col-12;
+        ul {
+          font-weight: bold;
+          padding-bottom: 6%;
+          font-size: 2vw;
+          &::first-letter{
+              font-family: $title-font;
+              font-size: 3vw;
+          }
+          li::before {
+            content: "\2606";
+            color: #d62828;
+            display: inline-block;
+            width: 6%;
+          }
+          li {
+            margin-top: 1%;
+            font-weight: lighter;
+            text-align: justify;
+            list-style: none;
+          }
+        }
+      }
+    }
+  }
+}
