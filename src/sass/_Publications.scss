@@ -17,13 +17,11 @@
       font-size: 2.5vw;
     }
     .carousel-wrapper {
-      .carousel-start {
-        font-family: $title-font;
-        font-size: 2vw;
-      }
       .year {
         font-family: $title-font;
+        font-size: 2vw;
         transition: all 0.2s ease-in-out;
+        margin: 10%;
         &:hover {
           color: #d62828;
         }
