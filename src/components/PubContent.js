@@ -5,7 +5,7 @@ export default function PubContent(props) {
   return (
     <div className="pub-cards-wrapper">
       {props.publications.map((publication) => (
-        <PubCard publication={publication} />
+        <PubCard publication={publication} key={publication.id} />
       ))}
     </div>
   );

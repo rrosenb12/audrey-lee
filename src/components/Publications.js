@@ -18,11 +18,9 @@ export default class Publications extends React.Component {
   };
 
   getYearMobile = (e) => {
-    this.setState(
-      {
-        year: e.target.innerText,
-      }
-    );
+    this.setState({
+      year: e.target.innerText,
+    });
   };
 
   renderYear = () => {
@@ -45,7 +43,7 @@ export default class Publications extends React.Component {
         <div className="publications-wrapper">
           <h1 className="publications-title">publications</h1>
           <div className="carousel-wrapper">
-            <Years getYear={this.getYear} years={this.YEARS}/>
+            <Years getYear={this.getYear} years={this.YEARS} />
           </div>
           <div className="years-wrapper">
             {this.YEARS.map((year) => (

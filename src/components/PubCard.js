@@ -7,7 +7,7 @@ export default class Pubcard extends React.Component {
 
   render() {
     return (
-      <div className="pub-card" type={this.props.publication.type}>
+      <div key={this.props.publication.id} className="pub-card" type={this.props.publication.type}>
         {this.props.publication.url === "PRINT ONLY" ? (
           <>
             {this.state.showAlert ? (
@@ -20,13 +20,8 @@ export default class Pubcard extends React.Component {
               onClick={() =>
                 /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
                   navigator.userAgent
-                )
-                  ? this.setState((previousState) => {
-                      return { showAlert: !previousState.showAlert };
-                    })
-                  : window.alert(
-                      "Sorry, this publication is only available in print"
-                    )
+                ) ? this.setState((previousState) => {return { showAlert: !previousState.showAlert }})
+                  : window.alert("Sorry, this publication is only available in print")
               }
             >
               {this.props.publication.title}

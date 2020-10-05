@@ -3,7 +3,6 @@ import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 
 export default class Years extends React.Component {
-
   clickHandler = (e) => {
     this.props.getYear(e.target.id);
   };
@@ -23,13 +22,15 @@ export default class Years extends React.Component {
             slidesPerPage: 5,
             slidesPerScroll: 3,
             clickToChange: true,
-            centered: false
-          }
+            centered: false,
+          },
         }}
       >
-        {this.props.years.map(year => 
-          <p id={year} key={year} className="year" onClick={this.clickHandler}>{year}</p>
-        )}
+        {this.props.years.map((year) => (
+          <p id={year} key={year} className="year" onClick={this.clickHandler}>
+            {year}
+          </p>
+        ))}
       </Carousel>
     );
   }
