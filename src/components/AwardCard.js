@@ -1,11 +1,25 @@
-import React from 'react'
+import React from "react";
 
-export default class AwardCard extends React.Component{
-    render(){
-        return(
-            <div className="award-card">
-                {console.log(this.props.award)}
-            </div>
-        )
-    }
+export default class AwardCard extends React.Component {
+  render() {
+    return (
+      <div className="award-card">
+        <ul>
+          {this.props.award.type}
+          {this.props.award.details.length !== 0 &&
+            this.props.award.details.map((detail) => <li>{detail}</li>)}
+        </ul>
+        {this.props.award.url !== "none" && (
+          <a
+            href={this.props.award.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read more
+          </a>
+        )}
+        {console.log(this.props.award)}
+      </div>
+    );
+  }
 }

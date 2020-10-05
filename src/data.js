@@ -334,7 +334,7 @@ export const awardsData = {
   2013: [
     {
       id: uuidv4(),
-      type: "Davis Baldwin Prize in Creative Writing",
+      type: "David Baldwin Prize in Creative Writing",
       details: [],
       url: "none",
     },
