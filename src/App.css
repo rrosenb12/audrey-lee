@@ -417,6 +417,10 @@
   display: table;
 }
 
+.media-page-wrapper {
+  margin-bottom: 10%;
+}
+
 @media only screen and (min-width: 758px) {
   .media-page-wrapper {
     width: 100%;
@@ -533,6 +537,85 @@
   }
   .media-page-wrapper .media-page-right .img-alt-wrap:hover > img {
     opacity: 0.1;
+  }
+}
+@media only screen and (max-width: 758px) {
+  .media-page-wrapper {
+    justify-content: center;
+    margin-top: 10%;
+  }
+  .media-page-wrapper .media-page-left {
+    width: 100%;
+    display: flex;
+  }
+  .media-page-wrapper .media-page-left .img-alt-wrap {
+    display: flex;
+    margin-left: -15%;
+  }
+  .media-page-wrapper .media-page-left .img-alt-wrap img {
+    max-width: 100%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .media-page-wrapper .alt-p {
+    display: none;
+  }
+  .media-page-wrapper .media-page-center {
+    width: 100%;
+    margin-top: -15%;
+    margin-bottom: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top: 5px double #d62828;
+    border-bottom: 5px double #d62828;
+  }
+  .media-page-wrapper .media-page-center h1 {
+    font-size: 150%;
+    font-family: "Cinzel", serif;
+    text-align: center;
+  }
+  .media-page-wrapper .media-page-center .media-button-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .media-page-wrapper .media-page-center .media-button-wrapper .media-button {
+    font-family: "Lato", sans-serif;
+    font-size: 150%;
+    width: 50%;
+    margin: 3% auto;
+    padding: 5%;
+    background-color: white;
+    border: 1px solid #343a40;
+    border-radius: 15px;
+    outline: none;
+    text-align: center;
+  }
+  .media-page-wrapper .media-page-center .media-button-wrapper .media-button:focus {
+    background-color: #e9ecef;
+    color: #d62828;
+  }
+  .media-page-wrapper .media-page-right {
+    width: 100%;
+    display: flex;
+  }
+  .media-page-wrapper .media-page-right .img-alt-wrap {
+    display: flex;
+    margin-left: -10%;
+  }
+  .media-page-wrapper .media-page-right .img-alt-wrap img {
+    max-width: 100%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .media-page-wrapper .alt-p {
+    display: none;
   }
 }
 .interviews-wrapper::after {

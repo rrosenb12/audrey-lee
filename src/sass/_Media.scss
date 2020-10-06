@@ -5,6 +5,10 @@
   @include row;
 }
 
+.media-page-wrapper {
+  margin-bottom: 10%;
+}
+
 @media only screen and (min-width: 758px) {
   .media-page-wrapper {
     width: $col-12;
@@ -120,6 +124,86 @@
           opacity: 0.1;
         }
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 758px) {
+  .media-page-wrapper {
+    justify-content: center;
+    margin-top: 10%;
+    .media-page-left {
+      width: $col-12;
+      display: flex;
+      .img-alt-wrap {
+        display: flex;
+        margin-left: -15%;
+        img {
+          max-width: $col-12;
+          max-height: 70%;
+          width: auto;
+          height: auto;
+          margin-right: auto;
+          margin-left: auto;
+        }
+      }
+    }
+    .alt-p {
+      display: none;
+    }
+    .media-page-center {
+      width: $col-12;
+      margin-top: -15%;
+      margin-bottom: 2%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      border-top: 5px double #d62828;
+      border-bottom: 5px double #d62828;
+      h1 {
+        font-size: 150%;
+        font-family: $title-font;
+        text-align: center;
+      }
+      .media-button-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .media-button {
+          font-family: $body-font;
+          font-size: 150%;
+          width: $col-6;
+          margin: 3% auto;
+          padding: 5%;
+          background-color: white;
+          border: 1px solid #343a40;
+          border-radius: 15px;
+          outline: none;
+          text-align: center;
+          &:focus {
+            background-color: #e9ecef;
+            color: #d62828;
+          }
+        }
+      }
+    }
+    .media-page-right {
+      width: $col-12;
+      display: flex;
+      .img-alt-wrap {
+        display: flex;
+        margin-left: -10%;
+        img {
+          max-width: $col-12;
+          max-height: 70%;
+          width: auto;
+          height: auto;
+          margin-right: auto;
+          margin-left: auto;
+        }
+      }
+    }
+    .alt-p {
+      display: none;
     }
   }
 }
