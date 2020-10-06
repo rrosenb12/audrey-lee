@@ -109,7 +109,7 @@
       font-size: 2vw;
       position: relative;
       text-decoration: none;
-      &::before{
+      &::before {
         content: "";
         position: absolute;
         width: 100%;
@@ -121,7 +121,7 @@
         transform: scaleX(0);
         transition: all 0.3s ease-in-out 0s;
       }
-      &:hover::before{
+      &:hover::before {
         visibility: visible;
         transform: scaleX(1);
       }
@@ -132,6 +132,10 @@
       margin-left: 3%;
       margin-right: 3%;
       font-size: 1.5vw;
+      transition: all 0.2s ease-in-out 0s;
+      &:hover {
+        color: #d62828;
+      }
     }
   }
 

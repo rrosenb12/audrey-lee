@@ -147,6 +147,10 @@
     margin-left: 3%;
     margin-right: 3%;
     font-size: 1.5vw;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  .navbar .navbaritem:hover {
+    color: #d62828;
   }
 
   .footer {
@@ -611,6 +615,10 @@
     border-radius: 15px;
     padding-bottom: -1%;
     text-align: center;
+    transition: all 0.2s ease-in-out;
+  }
+  .interviews-wrapper .interview-card:hover {
+    background-color: #e9ecef;
   }
 }
 .videos-wrapper::after {
@@ -678,12 +686,15 @@
   display: table;
 }
 
+.probably-angels-wrapper {
+  width: 100%;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 758px) {
   .probably-angels-wrapper {
-    width: 100%;
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
     font-size: 2vw;
     margin-bottom: 10%;
   }
@@ -706,6 +717,32 @@
     height: auto;
   }
 }
+@media only screen and (max-width: 758px) {
+  .probably-angels-wrapper {
+    margin-top: 15%;
+    font-size: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12%;
+  }
+  .probably-angels-wrapper .probably-angels-text-wrapper {
+    width: 100%;
+  }
+  .probably-angels-wrapper .probably-angels-text-wrapper a {
+    color: #d62828;
+  }
+  .probably-angels-wrapper .probably-angels-img-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .probably-angels-wrapper .probably-angels-img-wrapper .probably-angels-cover {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+}
 .awards-wrapper::after {
   content: "";
   clear: both;
@@ -723,10 +760,6 @@
     margin: 0 auto;
     padding-top: 1%;
     font-size: 2.5vw;
-  }
-  .awards-wrapper .carousel-wrapper {
-    border-bottom: 2px dotted #343a40;
-    border-top: 2px dotted #343a40;
   }
   .awards-wrapper .carousel-wrapper .year {
     font-family: "Cinzel", serif;
@@ -754,7 +787,6 @@
   }
   .awards-wrapper .award-content-wrapper .award-card ul {
     font-weight: bold;
-    padding-bottom: 6%;
     font-size: 2vw;
   }
   .awards-wrapper .award-content-wrapper .award-card ul::first-letter {
@@ -772,6 +804,9 @@
     font-weight: lighter;
     text-align: justify;
     list-style: none;
+  }
+  .awards-wrapper .award-content-wrapper .award-card ul li:hover {
+    font-weight: bold;
   }
 }
 html {
