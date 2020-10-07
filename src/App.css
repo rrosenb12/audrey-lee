@@ -624,6 +624,12 @@
   display: table;
 }
 
+.interviews-top::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 @media only screen and (min-width: 758px) {
   .interviews-top {
     display: flex;
@@ -704,6 +710,68 @@
     background-color: #e9ecef;
   }
 }
+@media only screen and (max-width: 758px) {
+  .interviews-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+  }
+  .interviews-top .button-wrapper {
+    width: 25%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-left: 3%;
+  }
+  .interviews-top .button-wrapper .back-button {
+    height: 100%;
+    font-family: "Lato", sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid #343a40;
+    border-radius: 10px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+  .interviews-top .interviews-title {
+    font-family: "Cinzel", serif;
+    width: 75%;
+    font-size: 6vw;
+    margin-left: 10%;
+  }
+
+  .interviews-wrapper {
+    width: 100%;
+    margin-bottom: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .interviews-wrapper h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 150%;
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  .interviews-wrapper h5 {
+    font-family: "Cinzel", serif;
+    font-size: 110%;
+    color: #d62828;
+  }
+  .interviews-wrapper .interview-card {
+    width: 91.66%;
+    text-align: center;
+    border: 2px solid #343a40;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    background-color: #e9ecef;
+    padding: 1%;
+  }
+}
 .videos-wrapper::after {
   content: "";
   clear: both;
@@ -758,6 +826,52 @@
     display: inline-flex;
     width: 100%;
     justify-content: center;
+  }
+  .videos-wrapper .content-wrapper .video {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 758px) {
+  .videos-wrapper {
+    margin-top: 10%;
+    margin-bottom: 12%;
+    width: 100%;
+    font-family: "Cinzel", serif;
+    text-align: center;
+  }
+  .videos-wrapper .videos-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .videos-wrapper .videos-top .videos-title {
+    font-family: "Cinzel", serif;
+    width: 75%;
+    font-size: 6vw;
+  }
+  .videos-wrapper .videos-top .button-wrapper {
+    width: 25%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
+  .videos-wrapper .videos-top .button-wrapper .back-button {
+    height: 100%;
+    font-family: "Lato", sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid #343a40;
+    border-radius: 10px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+  .videos-wrapper .content-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
   }
   .videos-wrapper .content-wrapper .video {
     width: 100%;

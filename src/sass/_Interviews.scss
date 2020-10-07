@@ -5,6 +5,10 @@
   @include row;
 }
 
+.interviews-top::after {
+  @include row;
+}
+
 @media only screen and (min-width: 758px) {
   .interviews-top {
     display: flex;
@@ -78,13 +82,71 @@
       padding-bottom: -1%;
       text-align: center;
       transition: all 0.2s ease-in-out;
-      &:hover{
+      &:hover {
         background-color: #e9ecef;
       }
     }
   }
 }
 
-@media only screen and (max-width: 758px){
-  
+@media only screen and (max-width: 758px) {
+  .interviews-top {
+    display: flex;
+    align-items: center;
+    width: $col-12;
+    margin-top: 10%;
+    .button-wrapper {
+      width: $col-3;
+      justify-content: center;
+      display: flex;
+      text-align: center;
+      margin-left: 3%;
+      .back-button {
+        height: 100%;
+        font-family: $body-font;
+        font-size: 100%;
+        font-weight: bold;
+        background-color: white;
+        border: 2px solid #343a40;
+        border-radius: 10px;
+        padding-top: 15%;
+        padding-bottom: 15%;
+        padding-left: 35%;
+        padding-right: 35%;
+      }
+    }
+    .interviews-title {
+      font-family: $title-font;
+      width: $col-9;
+      font-size: 6vw;
+      margin-left: 10%;
+    }
+  }
+  .interviews-wrapper {
+    width: $col-12;
+    margin-bottom: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    h1 {
+      font-family: $body-font;
+      font-size: 150%;
+      text-decoration: underline;
+      text-underline-position: under;
+    }
+    h5 {
+      font-family: $title-font;
+      font-size: 110%;
+      color: #d62828;
+    }
+    .interview-card {
+      width: $col-11;
+      text-align: center;
+      border: 2px solid #343a40;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      background-color: #e9ecef;
+      padding: 1%;
+    }
+  }
 }
