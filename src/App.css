@@ -270,6 +270,7 @@
   .publications-wrapper {
     height: 100%;
     margin-bottom: 5%;
+    width: 100%;
   }
   .publications-wrapper .publications-title {
     font-family: "Cinzel", serif;
@@ -950,6 +951,7 @@
   .awards-wrapper {
     height: 100%;
     margin-bottom: 5%;
+    width: 100%;
   }
   .awards-wrapper .awards-title {
     font-family: "Cinzel", serif;
@@ -1004,6 +1006,74 @@
   }
   .awards-wrapper .award-content-wrapper .award-card ul li:hover {
     font-weight: bold;
+  }
+}
+@media only screen and (max-width: 758px) {
+  .awards-wrapper {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .awards-wrapper .awards-title {
+    float: left;
+    font-size: 6vw;
+    font-family: "Cinzel", serif;
+    width: 100%;
+  }
+  .awards-wrapper .carousel-wrapper {
+    display: none;
+  }
+  .awards-wrapper .years-wrapper {
+    width: 41.66%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  .awards-wrapper .years-wrapper .year-button {
+    width: 66.66%;
+    height: 10vh;
+    margin-bottom: 2%;
+    font-family: "Lato", sans-serif;
+    font-size: 5vw;
+    background-color: #e9ecef;
+    border: 2px solid #343a40;
+    border-radius: 5px;
+  }
+  .awards-wrapper .years-wrapper .year-button:focus {
+    outline: none;
+    border: 2px solid #d62828;
+    color: #d62828;
+  }
+  .awards-wrapper .award-content-wrapper {
+    float: right;
+    width: 58.33%;
+    margin-bottom: 10%;
+    font-family: "Lato", sans-serif;
+  }
+  .awards-wrapper .award-content-wrapper .award-card {
+    width: 100%;
+    margin-left: -10%;
+  }
+  .awards-wrapper .award-content-wrapper .award-card ul {
+    font-weight: bold;
+    font-size: 5vw;
+  }
+  .awards-wrapper .award-content-wrapper .award-card ul::first-letter {
+    font-family: "Cinzel", serif;
+    font-size: 7vw;
+  }
+  .awards-wrapper .award-content-wrapper .award-card ul li::before {
+    content: "☆";
+    color: #d62828;
+    display: inline-block;
+    width: 15%;
+  }
+  .awards-wrapper .award-content-wrapper .award-card ul li {
+    margin-top: 1%;
+    font-weight: lighter;
+    text-align: justify;
+    list-style: none;
   }
 }
 html {
