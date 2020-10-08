@@ -52,6 +52,24 @@ export default class NavBar extends React.Component {
             </NavLink>
           </div>
         </div>
+        {this.state.rotate ? (
+          <div className="drop-down">
+            <ul>
+              <NavLink className="navbaritem" to="/publications" onClick={this.clickHandler}>
+                <li>Publications</li>
+              </NavLink>
+              <NavLink className="navbaritem" to="/probably-angels" onClick={this.clickHandler}>
+                <li>Probably, Angels</li>
+              </NavLink>
+              <NavLink className="navbaritem" to="/awards" onClick={this.clickHandler}>
+                <li>Awards & Recognitions</li>
+              </NavLink>
+              <NavLink className="navbaritem" to="/media" onClick={this.clickHandler}>
+                <li>Media</li>
+              </NavLink>
+            </ul>
+          </div>
+        ) : null}
       </>
     );
   }
