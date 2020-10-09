@@ -13,7 +13,7 @@ export default function Home() {
           <div className="textwrapper">
             <p className="bioleft">
               <strong>
-                Audrey Lee is a twenty-one year old writer and student from
+                Audrey Lee is a writer and student from
                 Philadelphia, Pennsylvania who attends Franklin & Marshall
                 College in Lancaster, Pennsylvania where she is earning her B.A.
                 in creative writing and American studies. She has attended the
