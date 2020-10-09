@@ -937,6 +937,12 @@
     width: auto;
     height: auto;
   }
+  .probably-angels-wrapper .probably-angels-img-wrapper .probably-angels-cover img {
+    max-width: 60%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
 }
 .awards-wrapper::after {
   content: "";
